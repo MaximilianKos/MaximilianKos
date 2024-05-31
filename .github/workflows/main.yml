@@ -38,7 +38,8 @@ jobs:
           plugin_habits_facts: yes
           plugin_habits_charts: no
 
-      - uses: Platane/snk@v3
+      - uses: Platane/snk/svg-only@v3
+        id: snake-gif
         with:
           # github user name to read the contribution graph from (**required**)
           # using action context var `github.repository_owner` or specified user
@@ -48,15 +49,14 @@ jobs:
           # one file per line. Each output can be customized with options as query string.
           #
           #  supported options:
-          palette: github-dark
-          color_snake: 745EFF
+          # palette: github-dark
+          # color_snake: 745EFF
           #  - color_dots:  Coma separated list of dots color.
           #                 The first one is 0 contribution, then it goes from the low contribution to the highest.
           #                 Exactly 5 colors are expected.
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
