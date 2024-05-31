@@ -4,7 +4,7 @@
   <img src="/github-metrics.svg" alt="Metrics">
 </picture>
 <picture>
-  <img src="/metrics.plugin.isocalendar.svg" alt="Metrics" height="367px">
+  <img src="/metrics.plugin.isocalendar.svg" alt="Metrics">
 </picture>
 
 <!--
