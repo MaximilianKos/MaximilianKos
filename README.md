@@ -1,11 +1,13 @@
-<!--### Hi there 👋-->
+### Hi there 👋
 
+<!--
 <picture>
   <img src="/github-metrics.svg" alt="Metrics">
 </picture>
 <picture>
   <img src="/metrics.plugin.isocalendar.svg" alt="Metrics">
 </picture>
+-->
 
 <!--
 **MaximilianKos/MaximilianKos** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
