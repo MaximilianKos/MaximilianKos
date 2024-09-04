@@ -18,7 +18,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: Europe/Zurich
-          base: ""
+          base: "base_indepth"
 
           # 3d Calendar
           filename: metrics.plugin.isocalendar.svg
